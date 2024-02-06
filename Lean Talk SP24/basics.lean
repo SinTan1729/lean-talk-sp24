@@ -13,6 +13,8 @@ open Nat
 def f (x : ℕ) :=
   x + 3
 
+#eval f 5
+
 #check f
 
 -- These are propositions, of type `Prop`.
