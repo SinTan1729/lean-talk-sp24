@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «Lean Talk SP24» where
+package «LeanTalkSP24» where
   -- Settings applied to both builds and interactive editing
   leanOptions := #[
     ⟨`pp.unicode.fun, true⟩, -- pretty-prints `fun a ↦ b`
@@ -13,5 +13,5 @@ require mathlib from git
   "https://github.com/leanprover-community/mathlib4.git"
 
 @[default_target]
-lean_lib «Lean Talk SP24» where
+lean_lib «LeanTalkSP24» where
   -- add any library configuration options here
