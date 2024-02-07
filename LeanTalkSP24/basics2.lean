@@ -23,9 +23,10 @@ def IsOdd (n : ℕ) : Bool := ¬IsEven n
 
 #eval IsEven 9
 #eval IsOdd 9
+#eval IsEven 8
+#eval IsOdd 8
 
-example {n : ℕ} : IsOdd n = ((n%2) = 1) := by
-  apply iff_iff_eq.mp
+example {n : ℕ} : IsOdd n ↔ ((n%2) = 1) := by
   constructor
   -- <;>
   · intro h
