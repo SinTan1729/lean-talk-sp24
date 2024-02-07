@@ -4,3 +4,5 @@ import «LeanTalkSP24».basics
 import «LeanTalkSP24».basics2
 import «LeanTalkSP24».infinitely_many_primes
 import «LeanTalkSP24».polynomial_over_field_dim_one
+import «LeanTalkSP24».alg_structures
+
